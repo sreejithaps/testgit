@@ -1,0 +1,75 @@
+
+body{
+background-color: cornsilk;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0 auto;
+}
+h1{
+   font-style:italic;
+   font-weight: 900;
+   font-size: 32px;
+   text-align: center;
+   color: blueviolet;
+}
+h2{
+    font-weight: 800;
+    font-size: 24px;
+}
+h3{
+ font-weight: 600;
+    font-size: 18px;   
+}
+p{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 14px;
+ color:rgb(49, 1, 1);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;   
+    background-color: rgb(130, 235, 92);
+    
+}
+
+nav ul li:hover {
+    background-color: rgb(60, 146, 221);
+}
+nav ul li a{
+    text-decoration: none;
+}
+article ul li{
+ display: block;
+ padding: 10px 20px;
+ width:150px;
+background-color: rgb(210, 223, 63);
+}
+fieldset{
+    width:50%;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+fieldset input{
+    padding:10px;   
+    border-color: chocolate;
+}
+fieldset textarea{
+    padding:10px;    
+    border-color: chocolate;
+}
+fieldset #btnsubmit{
+    padding:10px;
+    border-color: chocolate;
+}
+fieldset #btnsubmit:hover{
+    padding:10px;
+    border-color: chocolate;
+    background-color: blueviolet;
+    color: beige;
+}
+footer{
+    float: none;
+    background-color: rgb(162, 221, 202);
+    padding: 2px;
+}

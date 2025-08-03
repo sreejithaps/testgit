@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Layout -Assignment3</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+        </section>
+        <form action="contact.html" method="post">
+            <fieldset name="container"> 
+                <label for="name"> Name :</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <br><br><br>
+                <label for="email">Email :</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <br><br><br>
+                <label for="message">Message :</label>
+                <br>
+                <textarea id="message" name="message" placeholder="Write message.." style="height:100px; width:220px;"></textarea>
+<br>
+                <input type="submit" value="Submit" name="submit" id="btnsubmit">
+            </fieldset>
+        </form>
+
+
+    </main>
+    <footer style="text-align: center;">
+        <p>&copy; 2025 Sreejitha.All rights reserved.</p>
+    </footer>
+   
+</body>
+
+</html>
