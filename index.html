@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator -Assignment6</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <script>
+        let maths = prompt("Enter marks for Maths:");
+        let science = prompt("Enter marks for Science:");
+        let english = prompt("Enter marks for English:");
+        let history = prompt("Enter marks for History:");
+        let geography = prompt("Enter marks for Geography:");
+        let total = parseInt(maths) + parseInt(science) + parseInt(english) + parseInt(history) + parseInt(geography);
+        let average = total / 5;
+        let grade = "";
+        if (average >= 90) {
+            grade = "A+";
+        } else if (average >= 80) {
+            grade = "A";
+        } else if (average >= 70) {
+            grade = "B";
+        } else if (average >= 60) {
+            grade = "C";
+        } else if (average >= 50) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+        alert("Total Marks: " + total + "\nAverage: " + average + "\nGrade: " + grade);
+
+
+    </script>
+
+</body>
+
+</html>
